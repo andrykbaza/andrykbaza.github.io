@@ -14,7 +14,6 @@
 
     <section>
         <h2>Форма для запису</h2>
-        <!-- Форма з інтеграцією Formspree -->
         <form id="booking-form" action="https://formspree.io/f/mwpklnlp" method="POST">
             <label for="name">Ім'я:</label>
             <input type="text" id="name" name="name" required>
@@ -27,6 +26,9 @@
 
             <label for="time">Час запису:</label>
             <input type="time" id="time" name="time" required>
+
+            <label for="message">Додаткова інформація:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Ваші побажання або додаткова інформація"></textarea>
 
             <button type="submit">Записатися</button>
         </form>
