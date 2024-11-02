@@ -7,24 +7,16 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="logo">
             <img src="logo.png" alt="baza.prod logo" class="logo-img">
         </div>
-        <h1>baza.prod</h1>
-        <p>Професійна студія звукозапису для вашої творчості!</p>
+        <h1 class="title">baza.prod</h1>
+        <p class="studio-info">Студія звукозапису<br>м. Львів, вул. Жовківська 25<br>Запис, зведення, мастеринг.<br>inst: @baza.prod.032</p>
     </header>
-
-    <section id="services">
-        <h2>Наші послуги</h2>
-        <ul>
-            <li>Запис</li>
-            <li>Зведення та мастеринг</li>
-        </ul>
-    </section>
 
     <section>
         <h2>Запис на сесію</h2>
@@ -32,17 +24,17 @@
             <label for="name">Ім'я:</label>
             <input type="text" id="name" name="name" required>
 
-            <label for="email">Електронна пошта:</label>
-            <input type="email" id="email" name="email" required>
+            <label for="date">Дата запису:</label>
+            <input type="date" id="date" name="date" class="date-input" required>
+
+            <label for="time">Час запису:</label>
+            <input type="time" id="time" name="time" class="time-input" required>
 
             <label for="phone">Номер телефону:</label>
             <input type="tel" id="phone" name="phone" placeholder="+380123456789" required>
 
-            <label for="date">Дата запису:</label>
-            <input type="date" id="date" name="date" required>
-
-            <label for="time">Час запису:</label>
-            <input type="time" id="time" name="time" required>
+            <label for="email">Електронна пошта:</label>
+            <input type="email" id="email" name="email" required>
 
             <button type="submit">Записатися</button>
         </form>
