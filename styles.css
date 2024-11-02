@@ -12,7 +12,8 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(to bottom, #1a1a2e, #4e148c);
+    background: linear-gradient(rgba(26, 26, 46, 0.7), rgba(78, 20, 140, 0.7)), url('DSC00054.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: #fff;
     padding: 20px;
 }
@@ -57,7 +58,7 @@ h1 {
 /* Стиль форми */
 form {
     max-width: 400px;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
     color: #333;
     padding: 20px;
     border-radius: 8px;
